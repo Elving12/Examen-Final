@@ -1,0 +1,346 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manga Deck</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+			
+		<section id="nav-panel" class="panel panel-left panel-cover">
+		
+			<div class="block">
+				<div class="row">
+				
+					<article class="col-30">
+						<img src="img/avatar.png" alt="" class="img-fluid">
+					</article>
+					<article class="col-70">
+						<h4>Elving Mendoza</h4>
+						emendoza@gmail.com
+					</article>
+				</div>
+			</div>  <!-- block -->
+		
+			
+			<div class="list media-list no-margin-top">
+			<ul>
+				<li>
+				  <a href="/home/" class="item-link item-content">
+					<div class="item-media"><span class="material-icons">other_houses</span></div>
+					<div class="item-inner">
+					  <div class="item-title">Inicio</div>
+					</div>
+				  </a>
+				</li>	
+				<li>
+				  <a href="/accion/" class="item-link item-content">
+					<div class="item-media"><span class="material-icons">accessibility_new</span></div>
+					<div class="item-inner">
+					  <div class="item-title">Figuras</div>
+					</div>
+				  </a>
+				</li>	
+				<li>
+				  <a href="/accion/" class="item-link item-content">
+					<div class="item-media"><span class="material-icons">book_5</span></div>
+					<div class="item-inner">
+					  <div class="item-title">Comics</div>
+					</div>
+				  </a>
+				</li>
+				<li>
+				  <a href="/perfil/" class="item-link item-content">
+					<div class="item-media"><span class="material-icons">person</span></div>
+					<div class="item-inner">
+					  <div class="item-title">Perfil</div>
+					</div>
+				  </a>
+				</li>	
+				<li>
+				  <a href="/accion/" class="item-link item-content">
+					<div class="item-media"><span class="material-icons">star</span></div>
+					<div class="item-inner">
+					  <div class="item-title">Favoritos</div>
+					</div>
+				  </a>
+				</li>		
+			</ul>
+			</div>
+			
+		</section>
+		
+		<div class="view view-main view-init">
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+				  	<div class="title">Manga Deck</div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel="left">
+							<i class="material-icons">menu</i>
+						</a>
+					</div>
+				</div>
+			  </nav>
+
+
+			  <section class="page-content">
+				  
+				  <div id="nav-categorias" class="block">
+				  
+					  	<div class="swiper-container swiper-init" data-slides-per-view="3" data-space-between="10">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="/accion/" class="button button-fill col-33">
+									   Acción
+								  	</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="/accion/" class="button button-fill col-33">
+										 Romance
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="/accion/" class="button button-fill col-33">
+							  		Figuras
+						  			</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="/accion/" class="button button-fill col-33">
+							  			Deporte
+						  			</a>
+								</div>
+							</div>
+						</div><!-- swiper -->
+					  
+
+				  </div><!-- nav-categories -->
+				  
+				  
+				  <div class="row row-titles">
+				  
+					  <article class="col-70">
+					  	<h2 class="block-title">Nuevo</h2>
+					  </article>
+					  
+					  <article class="col-30">
+						  <a href="/accion/"><h2 class="block-title block-title-small">Ver Todo</h2></a>
+					  </article>
+					  
+				  </div>
+				  
+				  <div class="block no-margin-top">
+				  
+					  <div class="row">
+					  
+						  <article class="col">						  
+						  	<div class="card product"> 
+								  
+								  <div class="card-content">
+								  	<a href="/info-producto/"><img src="img/producto-akira-1.jpg" alt="" class="img-fluid"></a>
+								  	<h3>Akira 1</h3>
+									  <p>Tomo 1</p>
+								  </div>
+							  	  <div class="card-footer">								  
+									  <span class="price">$7.90</span>
+									  <a href="/info-producto/"><span class="material-icons">pending</span></a>					  
+								  </div>
+								  
+							  </div>
+						  </article>
+						  
+						  <article class="col">						  
+						  	<div class="card product">
+								  
+								  <div class="card-content">
+								  	<a href="/info-producto/"><img src="img/producto-akira-2.jpg" alt="" class="img-fluid"></a>
+								  	<h3>Akira 2</h3>
+									  <p>Tomo 2</p>
+								  </div>
+							  	  <div class="card-footer">								  
+									  <span class="price">$7.90</span>
+									  <a href="/info-producto/"><span class="material-icons">pending</span></a>					  
+								  </div>
+								  
+							  </div>
+						  </article>
+					  
+					  </div>
+				  
+				</div><!-- block -->
+				  
+				  
+				<div class="row row-titles">
+				  
+					<article class="col-70">
+						<h2 class="block-title">Romance</h2>
+					</article>
+
+					<article class="col-30">
+						<a href="/accion/"><h2 class="block-title block-title-small">Ver Todo</h2></a>
+					</article>
+					  
+				</div><!-- row-titles -->
+				  
+				  
+				<div id="product-columns" class="block no-margin-top">
+
+					
+					<div class="swiper-container swiper-init" data-slides-per-view="1" data-space-between="10" data-centered-slides="true" data-pagination='{"el": ".swiper-pagination"}'>
+						<div class="swiper-pagination"></div>
+						<div class="swiper-wrapper">
+					
+							<div class="swiper-slide">
+								<article class="card product text-align-left">
+
+									<div class="card-content">
+
+										<div class="row">
+											<article class="col-50">
+												<a href="/info-producto/"><img src="img/producto-SV 1.jpg" alt="" class="img-fluid"></a>
+											</article>
+											<article class="col-50 content">
+												<h3>A Silent Voice 1</h3>
+												<p>Tomo 1</p>
+												<div class="row">
+													<article class="col">
+														<span class="price">$7.90</span>
+													</article>
+												</div>
+											</article>
+										</div>
+
+									</div>
+
+								</article><!-- card -->								
+							</div>
+							
+							<div class="swiper-slide">							
+								<article class="card product text-align-left">
+
+									<div class="card-content">
+
+										<div class="row">
+											<article class="col-50">
+												<a href="/info-producto/"><img src="img/producto-SV 2.jpg" alt="" class="img-fluid"></a>
+											</article>
+											<article class="col-50 content">
+												<h3>A Silent Voice 2</h3>
+												<p>Tomo 1</p>
+												<div class="row">
+													<article class="col">
+														<span class="price">$7.90</span>
+													</article>
+												</div>
+											</article>
+										</div>
+
+									</div>
+
+								</article><!-- card -->		
+												</div>
+											</article>
+										</div>
+
+									</div>
+				  
+				  <div class="row row-titles">
+				  
+					  <article class="col-70">
+					  	<h2 class="block-title">Acción</h2>
+					  </article>
+					  
+					  <article class="col-30">
+						  <a href="/accion/"><h2 class="block-title block-title-small">Ver Todo</h2></a>
+					  </article>
+					  
+				  </div>
+				  
+				  <div class="block no-margin-top">
+				  
+					  <div class="row">
+					  
+						  <article class="col">						  
+						  	<div class="card product"> 
+								  
+								  <div class="card-content">
+								  	<a href="/info-producto/"><img src="img/producto-akira-1.jpg" alt="" class="img-fluid"></a>
+								  	<h3>Akira 1</h3>
+									  <p>Tomo 1</p>
+								  </div>
+							  	  <div class="card-footer">								  
+									  <span class="price">$7.90</span>
+									  <a href="/info-producto/"><span class="material-icons">pending</span></a>					  
+								  </div>
+								  
+							  </div>
+						  </article>
+						  
+						  <article class="col">						  
+						  	<div class="card product">
+								  
+								  <div class="card-content">
+								  	<a href="/info-producto/"><img src="img/producto-akira-2.jpg" alt="" class="img-fluid"></a>
+								  	<h3>Akira 2</h3>
+									  <p>Tomo 2</p>
+								  </div>
+							  	  <div class="card-footer">								  
+									  <span class="price">$7.90</span>
+									  <a href="/info-producto/"><span class="material-icons">pending</span></a>					  
+								  </div>
+								  
+							  </div>
+						  </article>
+					  
+					  </div>
+				  
+				</div><!-- block -->
+
+								</article><!-- card -->							
+							</div>
+							
+						</div>
+					</div>
+
+				</div><!-- block -->
+				  
+				  <div class="fotos"></div>
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+				  
+			  </section> <!--/page-content -->
+
+			</section> <!--/page -->
+		</div><!--/view -->
+		
+		
+		
+	</div><!--/app -->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+	
+	
+	
+</body>
+</html>
